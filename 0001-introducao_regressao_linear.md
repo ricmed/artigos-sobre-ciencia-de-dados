@@ -10,16 +10,16 @@ No caso mais simples, com uma única variável preditora, a relação entre a va
 $$ y = \beta_0 + \beta_1 x + \epsilon $$
 
 Onde:
-- **$\( \beta_0 \)$** é o intercepto,
-- **$\( \beta_1 \)$** é o coeficiente da variável independente \( x \),
-- **$\( \epsilon \)$** é o termo de erro, que capta todas as outras influências sobre \( y \) que não são explicadas por \( x \).
+- **$( \beta_0 )$** é o intercepto,
+- **$( \beta_1 )$** é o coeficiente da variável independente \( x \),
+- **$( \epsilon )$** é o termo de erro, que capta todas as outras influências sobre \( y \) que não são explicadas por \( x \).
 
 ### Regressão Linear Múltipla
 Quando há mais de uma variável independente, a equação se expande para:
 
-$$ \[ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon \] $$
+$$ y = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \cdots + \beta_n x_n + \epsilon $$
 
-Aqui, cada $\( x_i \)$ representa uma variável independente diferente, e $\( \beta_i \)$ são os coeficientes correspondentes.
+Aqui, cada $( x_i )$ representa uma variável independente diferente, e $( \beta_i )$ são os coeficientes correspondentes.
 
 ## Aplicações da Regressão Linear
 
@@ -34,26 +34,27 @@ Para avaliar o desempenho de um modelo de regressão linear, as métricas mais c
 
 1. **Erro Quadrático Médio (MSE):**
 
-$$ MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2 $$
+$MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2$
 
-onde $\( \hat{y}_i \)$ é o valor predito e $\( y_i \)$ é o valor real.
+onde $( \hat{y}_i )$ é o valor predito e $( y_i )$ é o valor real.
 
 2. **Raiz do Erro Quadrático Médio (RMSE):**
 
-$$ RMSE = \sqrt{MSE} $$
+$RMSE = \sqrt{MSE}$
 
 fornece uma medida da magnitude do erro em termos das unidades originais da variável de saída.
 
 3. **Coeficiente de Determinação** \( R^2 \):
 
-![image](https://gist.github.com/assets/1745737/81c67c8d-8064-4ff6-8ae5-024731570433)
+$R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}$
+
 
 Onde:
-- $\( y_i \)$ são os valores reais das observações,
-- $\( \hat{y}_i \)$ são os valores preditos pelo modelo,
-- $\( \bar{y} \)$ é a média dos valores reais.
+- $( y_i )$ são os valores reais das observações,
+- $( \hat{y}_i )$ são os valores preditos pelo modelo,
+- $( \bar{y} )$ é a média dos valores reais.
 
-O $\( R^2 \)$ mede a proporção da variância na variável dependente que é previsível a partir das variáveis independentes.
+O $( R^2 )$ mede a proporção da variância na variável dependente que é previsível a partir das variáveis independentes.
 
 ## Exemplo Prático em Python
 
