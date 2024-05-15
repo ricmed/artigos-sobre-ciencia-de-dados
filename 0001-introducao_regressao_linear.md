@@ -46,7 +46,7 @@ fornece uma medida da magnitude do erro em termos das unidades originais da vari
 
 3. **Coeficiente de Determinação** $( R^2 )$:
 
-$R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}$
+$$ R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2} $$
 
 
 Onde:
