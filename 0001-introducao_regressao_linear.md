@@ -48,6 +48,9 @@ fornece uma medida da magnitude do erro em termos das unidades originais da vari
 
 $R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}$
 
+$$\( R^2 = 1 - \frac{\sum_{i} (y_i - f_i)^2}{\sum_{i} (y_i - \bar{y})^2} \)$$
+
+
 Onde:
 - $( y_i )$ são os valores reais das observações,
 - $( \hat{y}_i )$ são os valores preditos pelo modelo,
