@@ -46,15 +46,12 @@ fornece uma medida da magnitude do erro em termos das unidades originais da vari
 
 3. **Coeficiente de Determinação** ( R^2 ):
 
-$R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}$
-
-$$\( R^2 = 1 - \frac{\sum_{i} (y_i - f_i)^2}{\sum_{i} (y_i - \bar{y})^2} \)$$
-
+$$ R^2 = 1 - \frac{\sum_{i} (y_i - f_i)^2}{\sum_{i} (y_i - \bar{y})^2} $$
 
 Onde:
-- $( y_i )$ são os valores reais das observações,
-- $( \hat{y}_i )$ são os valores preditos pelo modelo,
-- $( \bar{y} )$ é a média dos valores reais.
+- \( y_i \) são os valores observados,
+- \( f_i \) são os valores previstos pelo modelo,
+- \( \bar{y} \) é a média dos valores observados.
 
 O $( R^2 )$ mede a proporção da variância na variável dependente que é previsível a partir das variáveis independentes.
 
