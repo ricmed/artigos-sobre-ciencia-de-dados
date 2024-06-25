@@ -104,7 +104,9 @@ O Índice de Gini da divisão (0.4167) é menor do que o Índice de Gini do nó 
 Em bibliotecas como Scikit-Learn, o cálculo do Índice de Gini é implementado automaticamente. Aqui está um exemplo de como construir uma árvore de decisão com o critério de Gini:
 
 ```python
+from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
+import matplotlib.pyplot as plt
 
 # Exemplo de dados
 X = [[1, 2], [2, 3], [3, 4], [4, 5]]
@@ -117,9 +119,6 @@ clf = DecisionTreeClassifier(criterion='gini')
 clf.fit(X, y)
 
 # Visualização da árvore de decisão
-from sklearn import tree
-import matplotlib.pyplot as plt
-
 plt.figure(figsize=(10, 8))
 tree.plot_tree(clf, filled=True)
 plt.show()
