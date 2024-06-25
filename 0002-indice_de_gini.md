@@ -122,4 +122,9 @@ clf.fit(X, y)
 plt.figure(figsize=(10, 8))
 tree.plot_tree(clf, filled=True)
 plt.show()
+```
 
+Neste exemplo, o critério 'gini' é especificado ao criar o modelo de árvore de decisão, e o Scikit-Learn usa o Índice de Gini para encontrar os melhores splits durante o treinamento.
+
+# Conclusão
+O Índice de Gini é uma métrica essencial no algoritmo de árvores de decisão, ajudando a determinar as melhores divisões para maximizar a pureza dos nós, o que resulta em um modelo mais eficiente e preciso.
