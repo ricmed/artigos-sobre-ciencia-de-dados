@@ -1,4 +1,4 @@
 # Artigos Sobre Ciência de Dados
 
-- [Regressão Linear](https://github.com/ricmed/artigos/wiki/Regress%C3%A3o-Linear)
-- [Índice de Gini](https://github.com/ricmed/artigos/wiki/%C3%8Dndice-de-Gini)
+- [0001 - Introdução à Regressão Linear](https://github.com/ricmed/artigos-sobre-ciencia-de-dados/blob/main/0001-introducao_regressao_linear.md)
+- [0002 - Índice de Gini](https://github.com/ricmed/artigos-sobre-ciencia-de-dados/blob/main/0002-indice_de_gini.md)
