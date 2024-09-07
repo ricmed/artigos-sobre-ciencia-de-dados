@@ -34,11 +34,11 @@ O processo de construção da árvore envolve o seguinte:
 
 - **Acurácia**: Proporção de predições corretas sobre o total de predições.
   
-  $$ \text{Acurácia} = \frac{\text{Número de predições corretas}}{\text{Número total de exemplos}} $$
+$$ \text{Acurácia} = \frac{\text{Número de predições corretas}}{\text{Número total de exemplos}} $$
   
 - **Precisão**: Proporção de verdadeiros positivos sobre o total de predições positivas feitas pelo modelo.
   
-  $$ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} $$
+$$ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Positivos}} $$
   
 - **Revocação (Recall)**: Proporção de verdadeiros positivos em relação ao total de exemplos que realmente pertencem àquela classe.
   
