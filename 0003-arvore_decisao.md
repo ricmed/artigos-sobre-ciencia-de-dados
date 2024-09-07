@@ -42,25 +42,25 @@ $$ \text{Precisão} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Posi
   
 - **Revocação (Recall)**: Proporção de verdadeiros positivos em relação ao total de exemplos que realmente pertencem àquela classe.
   
-  $$ \text{Revocação} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} $$
+$$ \text{Revocação} = \frac{\text{Verdadeiros Positivos}}{\text{Verdadeiros Positivos + Falsos Negativos}} $$
   
 - **F1-Score**: Média harmônica entre a precisão e a revocação. É útil quando há um desbalanceamento nas classes.
   
-  $$ F1 = 2 \times \frac{\text{Precisão} \times \text{Revocação}}{\text{Precisão} + \text{Revocação}} $$
+$$ F1 = 2 \times \frac{\text{Precisão} \times \text{Revocação}}{\text{Precisão} + \text{Revocação}} $$
 
 #### Para Regressão:
 
 - **Erro Médio Absoluto (MAE)**: Média das diferenças absolutas entre os valores preditos e os valores reais.
   
-  $$ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
+$$ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
 
 - **Erro Quadrático Médio (MSE)**: Média das diferenças quadráticas entre os valores preditos e os valores reais.
   
-  $$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
+$$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
 
 - **R-quadrado ($R^2$)**: Medida que indica o quão bem os valores preditos se ajustam aos valores reais.
   
-  $$ R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} $$
+$$ R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} $$
 
 ### O Parâmetro `ccp_alpha` (Poda de Custo Complexo)
 
