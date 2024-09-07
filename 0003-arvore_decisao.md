@@ -59,7 +59,7 @@ $$ MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
 $$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
 
 - **R-quadrado ($R^2$)**: Medida que indica o quão bem os valores preditos se ajustam aos valores reais.
-  
+
 $$ R^2 = 1 - \frac{\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}{\sum_{i=1}^{n}(y_i - \bar{y})^2} $$
 
 ### O Parâmetro `ccp_alpha` (Poda de Custo Complexo)
