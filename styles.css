@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Seção de artigos */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+.articles {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.articles h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #282c34;
+    border-bottom: 2px solid #61dafb;
+    padding-bottom: 10px;
+}
+
+.articles ul {
+    list-style-type: none;
+}
+
+.articles li {
+    margin-bottom: 15px;
+}
+
+.articles a {
+    text-decoration: none;
+    color: #61dafb;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.articles a:hover {
+    color: #21a1f1;
+}
+
+/* Rodapé */
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .articles h2 {
+        font-size: 1.8rem;
+    }
+
+    .articles a {
+        font-size: 1rem;
+    }
+}
